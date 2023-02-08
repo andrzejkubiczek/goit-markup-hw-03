@@ -191,6 +191,7 @@ header > .container {
 }
 
 .team figcaption {
+  padding: 30px 0;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
@@ -222,8 +223,16 @@ footer p {
   letter-spacing: 0.03em;
 }
 
+footer p:not(:first-child) {
+  padding-top: 9px;
+}
+
 footer p:first-child {
   color: var(--white-color);
+}
+
+footer address {
+  padding-top: 20px;
 }
 
 footer p a {
