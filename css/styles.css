@@ -39,6 +39,11 @@ header {
   border-bottom: 1px solid #ececec;
 }
 
+header > .container {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -180,6 +185,11 @@ header {
   background-color: var(--team-color);
 }
 
+.team li {
+  background-color: var(--white-color);
+  flex-basis: calc((100% - 90px) / 4);
+}
+
 .team figcaption {
   font-size: 16px;
   line-height: 1.8;
@@ -199,6 +209,10 @@ header {
 footer,
 .order {
   background-color: var(--bg-color);
+}
+
+footer > .container {
+  padding: 60px 0;
 }
 
 footer p {
