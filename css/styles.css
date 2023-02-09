@@ -163,7 +163,8 @@ nav {
   letter-spacing: 0.03em;
 }
 
-.info-cards li {
+.info-cards li,
+.portfolio figure {
   flex-basis: calc((100% - 60px) / 3);
 }
 
@@ -199,7 +200,7 @@ nav {
   background-color: var(--team-color);
 }
 
-.team li {
+.team li figure {
   background-color: var(--white-color);
   flex-basis: calc((100% - 90px) / 4);
 }
@@ -259,7 +260,20 @@ footer p a:focus {
   background-color: var(--link-color);
 }
 
-.portfolio-buttons button {
+.portfolio-buttons-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 34px;
+}
+
+.portfolio-buttons-list > li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.portfolio-buttons-list button {
+  border: 0;
   border-radius: 4px;
   background-color: var(--team-color);
   color: var(--brand-color);
@@ -268,12 +282,20 @@ footer p a:focus {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+  padding: 6px 22px;
 }
 
-.portfolio-buttons button:active,
-.portfolio-buttons button:hover {
+.portfolio-buttons-list button:active,
+.portfolio-buttons-list button:hover {
   background-color: var(--link-color);
   color: var(--white-color);
+}
+
+.portfolio figcaption {
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+  padding: 20px 24px;
 }
 
 .portfolio-item {
