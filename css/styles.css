@@ -73,6 +73,7 @@ header > .container {
 
 .nav-links {
   display: flex;
+  flex-direction: row;
 }
 
 .nav-links li a {
@@ -90,6 +91,19 @@ header > .container {
 .contact-links li a:hover,
 .contact-links li a:focus {
   color: var(--link-color);
+}
+
+nav {
+  flex-grow: 1;
+  margin-left: 93px;
+}
+
+.nav-links li:not(:last-child) {
+  margin-right: 46px;
+}
+
+.contact li:not(:last-child) {
+  margin-right: 50px;
 }
 
 .contact li a {
