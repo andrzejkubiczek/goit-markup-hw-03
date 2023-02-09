@@ -110,8 +110,11 @@ nav {
   color: var(--contact-color);
 }
 
+.order > .container {
+  padding: 106px 0;
+}
+
 .order h1 {
-  margin-top: 106px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;
@@ -123,7 +126,6 @@ nav {
 
 .order button {
   margin-top: 30px;
-  margin-bottom: 96px;
 }
 
 .order-button {
@@ -132,11 +134,10 @@ nav {
   border: 0;
   text-align: center;
   letter-spacing: 0.06em;
-  width: 200px;
-  padding: 10px 0;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
+  padding: 10px 42px;
   background-color: var(--link-color);
   color: var(--white-color);
 }
@@ -258,6 +259,10 @@ footer p a {
 footer p a:hover,
 footer p a:focus {
   background-color: var(--link-color);
+}
+
+.no-gap {
+  display: block;
 }
 
 .portfolio-buttons-list {
