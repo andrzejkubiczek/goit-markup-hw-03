@@ -39,7 +39,7 @@ header {
   border-bottom: 1px solid #ececec;
 }
 
-header > .container {
+header .container {
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -112,7 +112,8 @@ nav {
 }
 
 .order > .container {
-  padding: 106px 0;
+  padding-top: 106px;
+  padding-bottom: 106px;
 }
 
 .order h1 {
@@ -226,8 +227,9 @@ footer,
   background-color: var(--bg-color);
 }
 
-footer {
-  padding: 60px 0;
+footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 footer p {
