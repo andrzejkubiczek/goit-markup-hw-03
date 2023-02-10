@@ -47,6 +47,7 @@ header > .container {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section {
@@ -149,7 +150,6 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  margin: 0 15px;
 }
 
 .examples {
