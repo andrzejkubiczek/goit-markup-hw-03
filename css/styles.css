@@ -226,7 +226,7 @@ footer,
   background-color: var(--bg-color);
 }
 
-footer > .container {
+footer {
   padding: 60px 0;
 }
 
