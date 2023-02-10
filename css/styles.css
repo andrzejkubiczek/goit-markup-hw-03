@@ -160,23 +160,22 @@ nav {
 
 .examples-cards li {
   flex-basis: calc((100% - 90px) / 4);
-  font-size: 14px;
-  letter-spacing: 0.03em;
 }
 
 .info-cards li,
-.portfolio figure {
+.portfolio li {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.examples h3 {
+.examples-cards-item h3 {
   font-weight: 700;
   line-height: 1.1;
   text-transform: uppercase;
   color: var(--brand-color);
 }
 
-.examples p {
+.examples-cards-item p {
+  margin-top: 10px;
   font-weight: 400;
   line-height: 1.7;
   color: var(--contact-color);
@@ -201,7 +200,7 @@ nav {
   background-color: var(--team-color);
 }
 
-.team li figure {
+.team li {
   background-color: var(--white-color);
   flex-basis: calc((100% - 90px) / 4);
 }
@@ -270,7 +269,7 @@ footer p a:focus {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .portfolio-buttons-list > li:not(:last-child) {
