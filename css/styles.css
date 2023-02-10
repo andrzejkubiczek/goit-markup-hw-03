@@ -148,8 +148,6 @@ nav {
 .team-cards {
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
   gap: 30px;
 }
 
@@ -160,6 +158,12 @@ nav {
 
 .examples-cards li {
   flex-basis: calc((100% - 90px) / 4);
+}
+
+.info-cards,
+.team-cards,
+.portfolio {
+  margin: 0 15px;
 }
 
 .info-cards li,
