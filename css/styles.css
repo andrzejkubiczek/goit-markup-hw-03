@@ -31,7 +31,7 @@ ul {
   padding: 0;
 }
 
-li {
+ul {
   list-style: none;
 }
 
@@ -240,7 +240,7 @@ footer p {
 }
 
 footer p:not(:first-child) {
-  padding-top: 9px;
+  margin-top: 9px;
 }
 
 footer p:first-child {
@@ -248,7 +248,7 @@ footer p:first-child {
 }
 
 footer address {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 footer p a {
