@@ -111,7 +111,7 @@ nav {
   color: var(--contact-color);
 }
 
-.order > .container {
+.order .container {
   padding-top: 106px;
   padding-bottom: 106px;
 }
