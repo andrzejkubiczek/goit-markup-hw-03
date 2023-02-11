@@ -265,12 +265,15 @@ footer p a:focus {
   display: block;
 }
 
+.portfolio-buttons {
+  margin-bottom: 50px;
+}
+
 .portfolio-buttons-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
 }
 
 .portfolio-buttons-list > li:not(:last-child) {
