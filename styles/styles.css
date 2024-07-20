@@ -1,156 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
-    --primary-brand-color: #4d5ae5;
-    --pressed-state-color: #404bbf;
-    --dark-color: #2e2f42;
-    --success-color: #31d0aa;
-    --text-color: #434455;
-    --subtle-text-color: #8e9f99;
-    --accent-color: #e7e9fc;
-    --light-color: #f4f4fd;
-    --white-color: #fff;
-    --modal-color: #fcfcfc;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e9f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --white-color: #fff;
+  --modal-color: #fcfcfc;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--text-color);
-    background-color: var(--white-color);
-    letter-spacing: 0.02em;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--white-color);
+  letter-spacing: 0.02em;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /* ------ HEADER ------- */
 
 .logo {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--primary-brand-color);
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary-brand-color);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-dark {
-    color: var(--dark-color);
+  color: var(--dark-color);
 }
 
 .header-menu-link {
-    font-weight: 500;
-    font-size: 16px;
-    color: var(--dark-color);
-    line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--dark-color);
+  line-height: 1.5;
 }
 
 .header-menu-link:hover,
 .header-menu-link:focus,
 .header-contact-link:hover,
 .header-contact-link:focus {
-    color: var(--pressed-state-color);
+  color: var(--pressed-state-color);
 }
 
 .header-contact-link {
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
 }
 
 /* ------ MAIN ------- */
 
 .hero,
 .footer {
-    background-color: var(--dark-color);
+  background-color: var(--dark-color);
 }
 
 .hero-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    color: var(--white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--white-color);
 }
 
 .hero-button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--white-color);
-    background-color: var(--primary-brand-color);
-    cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--primary-brand-color);
+  cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: var(--pressed-state-color);
+  background-color: var(--pressed-state-color);
 }
 
 .features-item-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: var(--dark-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
 }
 
 .features-item-text {
-    font-size: 16px;
-    line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .team {
-    background-color: var(--light-color);
+  background-color: var(--light-color);
 }
 
 .section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    color: var(--dark-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--dark-color);
 }
 
 .team-item {
-    background-color: var(--white-color);
+  background-color: var(--white-color);
 }
 
 .team-item-name,
 .portfolio-item-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: var(--dark-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
 }
 
 .team-item-text,
 .portfolio-item-text {
-    font-size: 16px;
-    line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .team-item-name,
 .team-item-text {
-    text-align: center;
+  text-align: center;
 }
 
 /* ------ FOOTER ------- */
 
 .logo-light {
-    color: var(--light-color);
+  color: var(--light-color);
 }
 
 .footer-text {
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--light-color);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--light-color);
 }
