@@ -233,6 +233,12 @@ address {
   padding: 100px 0;
 }
 
+.page-footer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .logo-light {
   color: var(--light-color);
 }
