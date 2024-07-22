@@ -146,6 +146,16 @@ address {
   background-color: var(--pressed-state-color);
 }
 
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .features-item-title {
   font-weight: 500;
   font-size: 20px;
