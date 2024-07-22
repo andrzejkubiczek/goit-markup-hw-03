@@ -72,16 +72,13 @@ address {
 
 .navigation {
   flex-grow: 1;
+  margin-left: 76px;
 }
 
 .menu,
 .contact {
   display: flex;
   gap: 40px;
-}
-
-.menu-item:first-child {
-  margin-left: 76px;
 }
 
 .menu-link {
@@ -107,13 +104,17 @@ address {
 /* ------ MAIN ------- */
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .hero,
 .page-footer {
   background-color: var(--dark-color);
+}
+
+.hero .container {
+  padding-top: 68px;
+  padding-bottom: 68px;
 }
 
 .hero-title {
@@ -122,9 +123,15 @@ address {
   line-height: 1.07;
   text-align: center;
   color: var(--white-color);
+  margin-bottom: 48px;
 }
 
 .hero-button {
+  display: block;
+  margin: 0 auto;
+  border: 0;
+  border-radius: 4px;
+  padding: 16px 32px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
