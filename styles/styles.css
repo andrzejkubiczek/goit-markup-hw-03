@@ -41,7 +41,7 @@ address {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1158px;
   margin: 0 auto;
 }
 
@@ -50,6 +50,8 @@ address {
 .page-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
 }
 
 .logo {
@@ -64,6 +66,20 @@ address {
 
 .logo-dark {
   color: var(--dark-color);
+}
+
+.navigation {
+  flex-grow: 1;
+}
+
+.menu,
+.contact {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-item:first-child {
+  margin-left: 76px;
 }
 
 .menu-link {
@@ -88,8 +104,13 @@ address {
 
 /* ------ MAIN ------- */
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .hero,
-.footer {
+.page-footer {
   background-color: var(--dark-color);
 }
 
@@ -164,6 +185,10 @@ address {
 }
 
 /* ------ FOOTER ------- */
+
+.page-footer {
+  padding: 100px 0;
+}
 
 .logo-light {
   color: var(--light-color);
