@@ -167,6 +167,7 @@ address {
 }
 
 .features-item-text {
+  margin-top: 8px;
   font-size: 16px;
   line-height: 1.5;
 }
